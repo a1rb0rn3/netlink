@@ -2,6 +2,10 @@ github.com/a1rb0rn3/netlink v1.1.1-0.20211117155015-c6c8221a6b63 h1:5pSuZWQ4Gjzr
 github.com/a1rb0rn3/netlink v1.1.1-0.20211117155015-c6c8221a6b63/go.mod h1:9B+2faCJlh9nMiOg4Acbh2q7lDMb96ruSSn+APFy2bw=
 github.com/vishvananda/netns v0.0.0-20200728191858-db3c7e526aae h1:4hwBBUfQCFe3Cym0ZtKyq7L16eZUtYKs+BaHDN6mAns=
 github.com/vishvananda/netns v0.0.0-20200728191858-db3c7e526aae/go.mod h1:DD4vA1DwXk04H54A1oHXtwZmA0grkVMdPxx/VGLCah0=
+github.com/vishvananda/netns v0.0.0-20211101163701-50045581ed74 h1:gga7acRE695APm9hlsSMoOoE65U4/TcqNj90mc69Rlg=
+github.com/vishvananda/netns v0.0.0-20211101163701-50045581ed74/go.mod h1:DD4vA1DwXk04H54A1oHXtwZmA0grkVMdPxx/VGLCah0=
 golang.org/x/sys v0.0.0-20200217220822-9197077df867/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
 golang.org/x/sys v0.0.0-20200728102440-3e129f6d46b1 h1:sIky/MyNRSHTrdxfsiUSS4WIAMvInbeXljJz+jDjeYE=
 golang.org/x/sys v0.0.0-20200728102440-3e129f6d46b1/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
+golang.org/x/sys v0.0.0-20211116061358-0a5406a5449c h1:DHcbWVXeY+0Y8HHKR+rbLwnoh2F4tNCY7rTiHJ30RmA=
+golang.org/x/sys v0.0.0-20211116061358-0a5406a5449c/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
