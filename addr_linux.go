@@ -164,6 +164,26 @@ func (h *Handle) addrHandle(link Link, addr *Addr, req *nl.NetlinkRequest) error
 	return err
 }
 
+// Equivalent to: `ip link flush dev $link`
+func AddrFlush(link Link) error {
+	return pkgHandle.AddrFlush(link)
+}
+
+// Equivalent to: `ip link flush dev $link`
+func (h *Handle) AddrFlush(link Link) error {
+	addrs, err := AddrList(link, FAMILY_ALL)
+	if err != nil {
+		return err
+	}
+	for _, addr := range addrs {
+		err = AddrDel(link, &addr)
+		if err != nil {
+			return err
+		}
+	}
+	return nil
+}
+
 // AddrList gets a list of IP addresses in the system.
 // Equivalent to: `ip addr show`.
 // The list can be filtered by link and ip family.
